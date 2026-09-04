@@ -1,0 +1,7 @@
+#Task 29:
+
+print(bool(0))
+print(bool(10))
+print(bool(""))
+print(bool("Hello"))
+print(bool(None))

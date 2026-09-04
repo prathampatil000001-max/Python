@@ -1,0 +1,17 @@
+#Task-28
+a=0
+b=1 
+c=-5
+d=""
+e="python"
+f=False
+g=True
+h=None
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(d))
+print(bool(e))
+print(bool(f))
+print(bool(g))
+print(bool(h))
