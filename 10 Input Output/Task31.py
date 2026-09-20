@@ -10,15 +10,15 @@ if age < 18 or age > 25:
     eligible = False
 
 if marks < 85:
-    print("Failed: Marks must be 85 or above.")
+    print("Failed: Marks must be above 85.")
     eligible = False
 
 if attendance < 75:
-    print("Failed: Attendance must be 75% or above.")
+    print("Failed: Attendance must be  above 75.")
     eligible = False
 
 if income > 300000:
-    print("Failed: Family income must be ₹300000 or below.")
+    print("Failed: Family income must be  below 300000.")
     eligible = False
 
 if eligible:
