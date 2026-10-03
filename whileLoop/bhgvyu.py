@@ -151,6 +151,9 @@
 #         print("Fail")
 
 
+# ///////---------------Nested match case question----/////
+# /////-----Gas Booking case-----///////// 
+
 gas_type = input("Enter gas type (domestic/commercial): ")
 
 match gas_type:
@@ -178,3 +181,17 @@ match gas_type:
 
     case _:
         print("Invalid gas type.")
+
+#////////-------------Guard Practice-------//////
+# These questions introduce case ... if ... (guards). Read them carefully.
+marks = 85
+
+match marks:
+    case x if x >= 90:
+        print("A")
+    case x if x >= 75:
+        print("B")
+    case x if x >= 60:
+        print("C")
+    case _:
+        print("Fail")
