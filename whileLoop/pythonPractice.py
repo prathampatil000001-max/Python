@@ -200,5 +200,13 @@ match day:
         print("satrday")
     case _:
         print("Invalid Day")       
+day = 10
 
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Weekday")
+    case 6 | 7 | 8 | 9 |10:
+        print("Weekend")
+    case _:
+        print("Invalid Day")
 
