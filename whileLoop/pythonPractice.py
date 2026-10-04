@@ -210,3 +210,70 @@ match day:
     case _:
         print("Invalid Day")
 
+marks = 82
+
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+elif marks >= 60:
+    print("C")
+elif marks >= 40:
+    print("D")
+else:
+    print("Fail")
+
+
+choice = int(input("Enter your choice: "))
+
+match choice:
+    case 1:
+        print("Addition")
+    case 2:
+        print("Subtraction")
+    case 3:
+        print("Multiplication")
+    case 4:
+        print("Division")
+    case _:
+        print("Invalid Choice")
+
+
+account = "student"
+choice = 2
+
+match account:
+
+    case "student":
+
+        match choice:
+            case 1:
+                print("View Courses")
+            case 2:
+                print("View Marks")
+            case 3:
+                print("View Attendance")
+            case _:
+                print("Invalid Choice")
+
+    case "teacher":
+
+        match choice:
+            case 1:
+                print("View Students")
+            case 2:
+                print("Enter Marks")
+            case _:
+                print("Invalid Choice")
+
+    case _:
+        print("Invalid Account Type")
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+elif marks >= 60:
+    print("C")
+else:
+    print("Fail")
+
