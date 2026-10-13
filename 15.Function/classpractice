@@ -1,0 +1,73 @@
+
+# Q]01
+# def addition():
+#     a=int(input("Enter a first number :-"))
+#     b=int(input("Enter a second number :-"))
+#     print(a+b)
+# addition()
+
+# Q]02
+# def print_line():
+#     print("--------------------")
+
+# print("Student Report")
+# print_line()
+# print("Name: Asha")
+# print_line()
+# print("Marks: 85")
+# print_line()
+
+
+# def print_heading():
+#     print("STUDENT REPORT")
+#     print("----------------")
+
+# def print_student_details():
+#     print("Name: Asha")
+#     print("Roll number: 12")
+
+# def print_result():
+#     print("Marks: 85")
+#     print("Result: Pass")
+
+# print_heading()
+# print_student_details()
+# print_result()
+
+
+
+def addition():
+    a=int(input("Enter a first number :-"))
+    b=int(input("Enter a second number :-"))
+    print(a+b)
+addition()
+
+def subtraction():
+    a=int(input("Enter a first number :-"))
+    b=int(input("Enter a second number :-"))
+    print(a-b)
+subtraction()
+
+def multiplication():
+    a=int(input("Enter a first number :-"))
+    b=int(input("Enter a second number :-"))
+    print(a*b)
+multiplication()
+
+def floordivision():
+    a=int(input("Enter a first number :-"))
+    b=int(input("Enter a second number :-"))
+    print(a//b)
+floordivision()
+
+# Q]03
+def even_odd():
+    num=int(input("Enter a number :"))
+    if num%2==0:
+        print("Even")
+    else:
+        print("Odd")
+even_odd()
+
+
+

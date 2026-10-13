@@ -588,8 +588,8 @@ for i in range(1, 5):
 
 for i in range(1, 6):
     if i == 3:
-        ______
-    print(i)
+    
+     print(i)
 # 1
 # 2
 # 4
@@ -662,7 +662,7 @@ else:
 # Q38. Understand Nested Loops
 # Predict the output.
 
-for row in range(1, 4):
+ for row in range(1, 4):
     for col in range(1, 4):
         if col == 2:
             continue
