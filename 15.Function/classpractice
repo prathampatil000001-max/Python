@@ -36,38 +36,84 @@
 
 
 
-def addition():
-    a=int(input("Enter a first number :-"))
-    b=int(input("Enter a second number :-"))
-    print(a+b)
-addition()
+# def addition():
+#     a=int(input("Enter a first number :-"))
+#     b=int(input("Enter a second number :-"))
+#     print(a+b)
+# addition()
 
-def subtraction():
-    a=int(input("Enter a first number :-"))
-    b=int(input("Enter a second number :-"))
-    print(a-b)
-subtraction()
+# def subtraction():
+#     a=int(input("Enter a first number :-"))
+#     b=int(input("Enter a second number :-"))
+#     print(a-b)
+# subtraction()
 
-def multiplication():
-    a=int(input("Enter a first number :-"))
-    b=int(input("Enter a second number :-"))
-    print(a*b)
-multiplication()
+# def multiplication():
+#     a=int(input("Enter a first number :-"))
+#     b=int(input("Enter a second number :-"))
+#     print(a*b)
+# multiplication()
 
-def floordivision():
-    a=int(input("Enter a first number :-"))
-    b=int(input("Enter a second number :-"))
-    print(a//b)
-floordivision()
+# def floordivision():
+#     a=int(input("Enter a first number :-"))
+#     b=int(input("Enter a second number :-"))
+#     print(a//b)
+# floordivision()
 
-# Q]03
-def even_odd():
-    num=int(input("Enter a number :"))
-    if num%2==0:
-        print("Even")
-    else:
-        print("Odd")
-even_odd()
+# # Q]03
+# def even_odd():
+#     num=int(input("Enter a number :"))
+#     if num%2==0:
+#         print("Even")
+#     else:
+#         print("Odd")
+# even_odd()
 
+# def prinnting_number(number):
+#     print(number)
 
+# prinnting_number(100)
+# prinnting_number(777)
+
+# def subtract(a, b):
+#     print(a - b)
+
+# subtract(10, 3)
+
+# def add(a, b):
+#     return a + b
+
+# result = add(10, 20)
+# print(result)
+
+# def add(a, b):
+#     print(a + b)
+
+# answer = add(2, 3)
+# print("Answer:", answer)
+
+# def add(a, b):
+#     return a + b
+
+# answer = add(2, 3)
+# print("Answer:", answer)
+def add(a,b):
+    c=a+b
+
+result=add(10,20)
+print(result)
+
+def double(number):
+    return number *2
+def add_eight(number):
+    return number + 8
+result = add_eight(double(10))
+print(result)
+
+def calculate(a,b):
+    total=a+b
+    diffrence=a-b
+    print(total,diffrence)
+
+calculate (10, 4)
 
