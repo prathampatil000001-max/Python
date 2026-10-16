@@ -161,3 +161,13 @@ def total(a, b, c=10):
 print(total(1, c=3, b=2))
 
 
+def counter_fun(count):
+    count=count+1
+
+    if (count==20):
+        return count 
+    counter_fun(count)
+    return counter_fun(count)
+
+
+print(counter_fun(19))
