@@ -117,3 +117,47 @@ def calculate(a,b):
 
 calculate (10, 4)
 
+# 3. Default and Keyword Arguments
+# 3.1 Default Arguments
+# A default argument is a parameter value provided in the function definition. Python uses it when the caller does not supply an argument for that parameter.
+def greet(name="Guest"):
+    print("Hello", name)
+
+greet()
+greet("Asha")
+
+def calculate(number):
+    return number * 2
+
+result = calculate(5)
+print(result + 3)
+
+def greet(name="Guest"):
+    return "Hello " + name
+
+print(greet())
+print(greet("Asha"))
+def values():
+    return 10, 20
+
+a, b = values()
+print(a + b)
+def show(a, b=5):
+    print(a, b)
+
+show(10)
+show(10, 20)
+show(a=7, b=3)
+def demo():
+    print("A")
+    return 5
+    print("B")
+
+print(demo())
+
+def total(a, b, c=10):
+    return a + b + c
+
+print(total(1, c=3, b=2))
+
+
