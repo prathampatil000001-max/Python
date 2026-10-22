@@ -403,15 +403,16 @@ print(calculate_result(35))
 
 # print(order_summary("Book", delivery_fee=20))
 
-def info(age,a,name="pp"):
-    print(a)
-    return 5
-a=info(name="sharan",age=20,a=30)
-print(a)
-print(info(name="sharan",age=20,a=30))
+# def info(age,a,name="pp"):
+#     print(a)
+#     return 5
+# a=info(name="sharan",age=20,a=30)
+# print(a)
+# print(info(name="sharan",age=20,a=30))
 
-def info(a,b,c,*args):
-    print(a,b,c)
-info(8,8,6)
+def info(a,b,c,e,f,g,k,*args):
+    print(a,b,c) 
+    print(args)
+info(8,8,6,7,5,4,0,6,5)
 
 
