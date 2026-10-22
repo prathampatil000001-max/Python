@@ -171,3 +171,21 @@ def counter_fun(count):
 
 
 print(counter_fun(19))
+
+def counter_fun(count):
+    count = count + 1
+
+    if count == 20:
+        return
+
+    counter_fun(count)
+    return counter_fun(count)
+
+
+print(counter_fun(19))
+
+
+def calculate_total():
+    return 100
+
+print(calculate_total())

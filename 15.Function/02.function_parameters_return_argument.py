@@ -77,9 +77,6 @@ print(total(1, c=3, b=2))
 
 # Beginner
 
-
-
-
 #01] Define a function named welcome that prints Welcome to Python. Call it three times.
 def welcome():
     print("Welcome to Python")
@@ -87,7 +84,6 @@ def welcome():
 welcome()
 welcome()
 welcome()
-
 
 # 02] Define greet(name) that prints a greeting using the given name.
 def greet(name):
@@ -218,7 +214,6 @@ def classify_number(number):
     else:
         return "Zero"
 
-
 print(classify_number(10))
 print(classify_number(-5))
 print(classify_number(0))
@@ -245,7 +240,6 @@ def format_name(first, last, uppercase=False):
         return full_name.upper()
     else:
         return full_name
-
 
 print(format_name("Rahul", "Sharma"))
 print(format_name("Rahul", "Sharma", True))
@@ -297,7 +291,6 @@ def analyze_number(number):
 
     return absolute_value, is_even, digits
 
-
 print(analyze_number(-246))
 print(analyze_number(135))
 print(analyze_number(0))
@@ -309,7 +302,6 @@ def calculate_stats(a, b, c):
     total = a + b + c
 
     return smallest, largest, total
-
 
 print(calculate_stats(10, 5, 20))
 
@@ -326,7 +318,6 @@ def apply_discount(price, discount=0):
     discount_amount = price * discount / 100
     final_price = price - discount_amount
     return final_price
-
 
 print(apply_discount(1000))
 print(apply_discount(1000, 20))
@@ -347,7 +338,6 @@ print(calculate_pay(hours=8, rate=250, bonus=500))
 print(calculate_pay(8, bonus=300))
 
 print(calculate_pay(hours=6, bonus=200))
-
 
 # Define get_coordinates(x=0, y=0) that returns both values. Test default calls and calls with only one keyword argument.
 def get_coordinates(x=0, y=0):
@@ -400,16 +390,28 @@ def calculate_result(marks, passing_marks=35):
     else:
         return "Fail"
 
-
 print(calculate_result(70))
 print(calculate_result(30))
 print(calculate_result(40, 50))
 print(calculate_result(35))
 
-# Define order_summary(item, quantity=1, price=100, delivery_fee=40) that returns the total cost. Use keyword arguments to change only the delivery fee.
-def order_summary(item, quantity=1, price=100, delivery_fee=40):
-    return quantity * price + delivery_fee
+# # Define order_summary(item, quantity=1, price=100, delivery_fee=40) that returns the total cost. Use keyword arguments to change only the delivery fee.
+# def order_summary(item, quantity=1, price=100, delivery_fee=40):
+#     return quantity * price + delivery_fee
 
-print(order_summary("Book"))
+# print(order_summary("Book"))
 
-print(order_summary("Book", delivery_fee=20))
+# print(order_summary("Book", delivery_fee=20))
+
+def info(age,a,name="pp"):
+    print(a)
+    return 5
+a=info(name="sharan",age=20,a=30)
+print(a)
+print(info(name="sharan",age=20,a=30))
+
+def info(a,b,c,*args):
+    print(a,b,c)
+info(8,8,6)
+
+
