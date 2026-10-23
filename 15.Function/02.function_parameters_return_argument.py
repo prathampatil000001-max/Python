@@ -416,3 +416,21 @@ def info(a,b,c,e,f,g,k,*args):
 info(8,8,6,7,5,4,0,6,5)
 
 
+# text = "call of duty"
+# word = "duty"
+
+# found = False
+
+# for i in range(len(text) - len(word) + 1):
+#     if text[i:i + len(word)] == word:
+#         found = True
+#         print("Found at index:", i)
+#         break
+
+# if not found:
+#     print("Not found")
+
+def devide(c,d,/,*,a,b):
+    return a/b,c+d
+print(devide(14,15,a=10,b=2))
+
