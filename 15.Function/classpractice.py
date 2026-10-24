@@ -189,3 +189,23 @@ def calculate_total():
     return 100
 
 print(calculate_total())
+def add(a, b, c):
+    return a + b + c
+
+numbers = 10, 20, 30
+print(add(*numbers))
+
+print(calculate_total())
+def add(a, b, c):
+    return a + b + c
+
+numbers = 10, 20, 30
+print(numbers)
+print(add(*numbers))  
+
+def introduce(name, age):
+    print(f"{name} is {age} years old.")
+
+person = {"name" :"Asha", "age": 20}
+print(person)
+introduce(**person)
