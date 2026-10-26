@@ -33,8 +33,23 @@ if True:
     score = 50
 print(score)
 
+
+total=100
+total=90
+diff=80
 def calculate():
     total = 10
     print(total)
-
+   
 calculate()
+print(total)
+print(print(total))
+print(diff)
+
+def show_number():
+    number = 5
+    add = number + 1
+    print(add)
+
+show_number()
+show_number()
