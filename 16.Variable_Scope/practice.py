@@ -130,3 +130,10 @@ def test():
     print(points)
     points = 10
 test()
+
+item = "pen"
+def show():
+    item = "book"
+    print(item)
+show()
+print(item)
