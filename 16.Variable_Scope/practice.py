@@ -53,3 +53,29 @@ def show_number():
 
 show_number()
 show_number()
+
+# x = 10
+
+# def demo():
+#     # global x
+  
+#     y=20
+#     x=y+1
+#     print(y)
+ 
+# demo()
+# print(x)
+def show():
+    x = 10
+    print(x)
+show()
+
+if True:
+    score = 50
+print(score)
+
+def calculate():
+    total = 10
+    print(total)
+
+calculate()
