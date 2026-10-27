@@ -151,3 +151,13 @@ def calculate_tax(amount):
     return amount * tax_rate
 
 print(calculate_tax(1000))
+
+score = 0
+
+def add_point():
+    global score
+    score = score + 1
+
+add_point()
+add_point()
+print(score)
