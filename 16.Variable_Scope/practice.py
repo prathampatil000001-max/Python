@@ -86,3 +86,12 @@ def show_number():
 
 show_number()
 show_number()
+
+count = 100
+
+def show():
+    count = 5
+    print(count)
+
+show()
+print(count)
