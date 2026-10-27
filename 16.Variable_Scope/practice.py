@@ -120,3 +120,8 @@ def demo():
 
 demo()
 print(x)
+
+def test():
+    value = 7
+    print(value)
+test()
