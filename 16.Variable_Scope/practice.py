@@ -137,3 +137,17 @@ def show():
     print(item)
 show()
 print(item)
+app_name = "StudyApp"
+
+def show_app():
+    print(app_name)
+
+show_app()
+print(app_name)
+
+tax_rate = 0.18
+
+def calculate_tax(amount):
+    return amount * tax_rate
+
+print(calculate_tax(1000))
