@@ -79,3 +79,10 @@ def calculate():
     print(total)
 
 calculate()
+def show_number():
+    number = 5
+    number = number + 1
+    print(number)
+
+show_number()
+show_number()
