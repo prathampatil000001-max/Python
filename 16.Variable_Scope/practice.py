@@ -125,3 +125,8 @@ def test():
     value = 7
     print(value)
 test()
+
+def test():
+    print(points)
+    points = 10
+test()
