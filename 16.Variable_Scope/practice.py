@@ -103,3 +103,11 @@ def demo():
     x = 20
 
 demo()
+
+# x = 10
+
+# def demo():
+#     print(x)
+#     local_x = 20
+
+# demo()
