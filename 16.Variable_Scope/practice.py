@@ -161,3 +161,10 @@ def add_point():
 add_point()
 add_point()
 print(score)
+
+score = 0
+
+def add_point():
+    score = score + 1
+
+add_point()
