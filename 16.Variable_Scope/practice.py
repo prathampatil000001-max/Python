@@ -111,3 +111,12 @@ demo()
 #     local_x = 20
 
 # demo()
+x = 10
+
+def demo():
+    global x
+    print(x)
+    x = 20
+
+demo()
+print(x)
