@@ -95,3 +95,11 @@ def show():
 
 show()
 print(count)
+
+x = 10
+
+def demo():
+    print(x)
+    x = 20
+
+demo()
