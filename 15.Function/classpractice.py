@@ -209,3 +209,23 @@ def introduce(name, age):
 person = {"name" :"Asha", "age": 20}
 print(person)
 introduce(**person)
+
+def describe(name, age, city):
+    print(name, age, city)
+
+person = {"age": 20, "city": "Pune"}
+print(person)
+describe("Asha", **person)
+
+
+first = {1,6, 88,88,2}
+second = {3, 4, 6,7,0}
+
+combined = [*first, *second]
+print(combined)
+print(combined)  # [1, 2, 3, 4]
+
+# values = (1, 2)
+# combined = (*values, 3, 4)
+# print(combined)
+# print(combined)  # (1, 2, 3, 4)
