@@ -9,3 +9,9 @@ match choice:
         print("Three")
     case _:
         print("Other")
+
+
+def show():
+    x = 10
+    print(x)
+show()
