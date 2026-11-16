@@ -21,4 +21,10 @@ def show():
     print(x)
 show()
 
+def show_number():
+    number = 5
+    number = number + 1
+    print(number)
 
+show_number()
+show_number()
