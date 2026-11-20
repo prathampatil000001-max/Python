@@ -206,3 +206,11 @@ def test():
     value = 7
     print(value)
 test()
+
+app_name = "StudyApp"
+
+def show_app():
+    print(app_name)
+
+show_app()
+print(app_name)
