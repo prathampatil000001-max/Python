@@ -214,3 +214,11 @@ def show_app():
 
 show_app()
 print(app_name)
+
+message="global"
+def outer():
+    def inner():
+        message=True+1
+        print(message)
+    inner()
+outer()
