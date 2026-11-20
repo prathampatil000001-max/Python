@@ -96,13 +96,13 @@ def show():
 show()
 print(count)
 
-x = 10
+# x = 10
 
-def demo():
-    print(x)
-    x = 20
+# def demo():
+#     print(x)
+#     x = 20
 
-demo()
+# demo()
 
 # x = 10
 
@@ -121,50 +121,88 @@ def demo():
 demo()
 print(x)
 
+# def test():
+#     value = 7
+#     print(value)
+# test()
+
+# def test():
+#     print(points)
+#     points = 10
+# test()
+
+# item = "pen"
+# def show():
+#     item = "book"
+#     print(item)
+# show()
+# print(item)
+# app_name = "StudyApp"
+
+# def show_app():
+#     print(app_name)
+
+# show_app()
+# print(app_name)
+
+# tax_rate = 0.18
+
+# def calculate_tax(amount):
+#     return amount * tax_rate
+
+# print(calculate_tax(1000))
+
+# score = 0
+
+# def add_point():
+#     global score
+#     score = score + 1
+
+# add_point()
+# add_point()
+# print(score)
+
+# score = 0
+
+# def add_point():
+#     score = score + 1
+
+# add_point()
+
+# a=int(input("Enter a string:-"))
+# count=0
+# for i in range("string"-1):
+#     count+=1
+#     def calculate():
+#     total = 10
+#     print(total)
+
+# calculate()
+
+def show_number():
+    number = 5
+    number = number + 1
+    print(number)
+
+show_number()
+show_number()
+
+
+# i=0
+# while i>=-10:
+#     name="prathmesh"
+#     print(i)
+#     i-=1
+#     print(name)
+
+count =100
+def show():
+    count1=count+2
+show()
+print(count)
+print(count)
+
 def test():
     value = 7
     print(value)
 test()
-
-def test():
-    print(points)
-    points = 10
-test()
-
-item = "pen"
-def show():
-    item = "book"
-    print(item)
-show()
-print(item)
-app_name = "StudyApp"
-
-def show_app():
-    print(app_name)
-
-show_app()
-print(app_name)
-
-tax_rate = 0.18
-
-def calculate_tax(amount):
-    return amount * tax_rate
-
-print(calculate_tax(1000))
-
-score = 0
-
-def add_point():
-    global score
-    score = score + 1
-
-add_point()
-add_point()
-print(score)
-
-score = 0
-
-def add_point():
-    score = score + 1
-
-add_point()
