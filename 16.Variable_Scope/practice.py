@@ -232,3 +232,11 @@ def add_point():
 add_point()
 add_point()
 print(score)
+
+items = []
+
+def add_item():
+    items.append("book")
+
+add_item()
+print(items)
