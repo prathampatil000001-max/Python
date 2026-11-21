@@ -250,3 +250,9 @@ show()
 # def increase():
 #     total += 1
 # increase()
+
+names = []
+def add_name():
+    names.append("Asha")
+add_name()
+print(names)
