@@ -245,3 +245,8 @@ language = "Python"
 def show():
     print(language)
 show()
+
+# total = 0
+# def increase():
+#     total += 1
+# increase()
