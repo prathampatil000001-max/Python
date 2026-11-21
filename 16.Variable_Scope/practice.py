@@ -222,3 +222,13 @@ def outer():
         print(message)
     inner()
 outer()
+
+score = 0
+
+def add_point():
+    global score
+    score = score + 1
+
+add_point()
+add_point()
+print(score)
