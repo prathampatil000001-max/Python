@@ -240,3 +240,8 @@ def add_item():
 
 add_item()
 print(items)
+
+language = "Python"
+def show():
+    print(language)
+show()
