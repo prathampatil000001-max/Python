@@ -359,3 +359,8 @@ def update():
 
 update()
 print(data)
+
+x = 9
+values = [x for x in range(3)]
+print(x)
+print(values)
