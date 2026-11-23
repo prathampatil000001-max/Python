@@ -346,3 +346,9 @@ def demo():
 
 demo()
 print(x)
+
+# for value in []:
+#     print(value)
+
+# print(value)
+
