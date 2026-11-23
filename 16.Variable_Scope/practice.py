@@ -289,3 +289,11 @@ def make_number():
 
 answer = make_number()
 print(answer)
+
+def make_list():
+    values = [10, 20]
+    return values
+
+result = make_list()
+result.append(30)
+print(result)
