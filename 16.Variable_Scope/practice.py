@@ -352,3 +352,10 @@ print(x)
 
 # print(value)
 
+data = {"count": 0}
+
+def update():
+    data["count"] += 1
+
+update()
+print(data)
