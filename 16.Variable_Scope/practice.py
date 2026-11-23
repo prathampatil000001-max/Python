@@ -317,3 +317,11 @@ for item in ["a", "b"]:
     pass
 
 print(item)
+
+price = 100
+
+def change_price():
+    price = 50
+
+change_price()
+print(price)
