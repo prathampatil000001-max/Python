@@ -325,3 +325,9 @@ def change_price():
 
 change_price()
 print(price)
+
+total = 0
+
+def update():
+    global total
+    total += 5
