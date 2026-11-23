@@ -379,3 +379,27 @@ counter = make_counter()
 print(counter())
 print(counter())
 print(counter())
+
+def outer():
+    message = "Hello Python"
+
+    def inner():
+        print(message)
+
+    return inner
+
+my_func = outer()
+my_func()
+
+def multiplier(x):
+
+    def calculate(y):
+        return x * y
+
+    return calculate
+
+double = multiplier(2)
+triple = multiplier(3)
+
+print(double(5))
+print(triple(5))
