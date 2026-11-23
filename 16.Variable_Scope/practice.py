@@ -1,100 +1,100 @@
-def greet():
-    message = "Hello"
-    print(message)
+# def greet():
+#     message = "Hello"
+#     print(message)
 
-greet()
+# greet()
 
 
-def calculate_area(length, width):
-    """calculate the area of a rectangle.
+# def calculate_area(length, width):
+#     """calculate the area of a rectangle.
     
     
-    Args:
-        length: The rectangle length.
-        width: The rectangle width 
+#     Args:
+#         length: The rectangle length.
+#         width: The rectangle width 
     
     
-    Returns:
-           The area of the rectangle"""
+#     Returns:
+#            The area of the rectangle"""
 
-    """
-    this is part of function """
+#     """
+#     this is part of function """
 
-    return length * width
+#     return length * width
 
-def greet():
-    message = "Hello"
-    print(message)
+# def greet():
+#     message = "Hello"
+#     print(message)
 
-greet()
-
-
-if True:
-    score = 50
-print(score)
+# greet()
 
 
-total=100
-total=90
-diff=80
-def calculate():
-    total = 10
-    print(total)
+# if True:
+#     score = 50
+# print(score)
+
+
+# total=100
+# total=90
+# diff=80
+# def calculate():
+#     total = 10
+#     print(total)
    
-calculate()
-print(total)
-print(print(total))
-print(diff)
+# calculate()
+# print(total)
+# print(print(total))
+# print(diff)
 
-def show_number():
-    number = 5
-    add = number + 1
-    print(add)
+# def show_number():
+#     number = 5
+#     add = number + 1
+#     print(add)
 
-show_number()
-show_number()
+# show_number()
+# show_number()
 
-# x = 10
+# # x = 10
 
-# def demo():
-#     # global x
+# # def demo():
+# #     # global x
   
-#     y=20
+# #     y=20
 #     x=y+1
 #     print(y)
  
 # demo()
 # print(x)
-def show():
-    x = 10
-    print(x)
-show()
+# def show():
+#     x = 10
+#     print(x)
+# show()
 
-if True:
-    score = 50
-print(score)
+# if True:
+#     score = 50
+# print(score)
 
-def calculate():
-    total = 10
-    print(total)
+# def calculate():
+#     total = 10
+#     print(total)
 
-calculate()
-def show_number():
-    number = 5
-    number = number + 1
-    print(number)
+# calculate()
+# def show_number():
+#     number = 5
+#     number = number + 1
+#     print(number)
 
-show_number()
-show_number()
+# show_number()
+# show_number()
 
-count = 100
+# count = 100
 
-def show():
-    count = 5
-    print(count)
+# def show():
+#     count = 5
+#     print(count)
 
-show()
-print(count)
+# show()
+# print(count)
 
 # x = 10
 
@@ -111,15 +111,15 @@ print(count)
 #     local_x = 20
 
 # demo()
-x = 10
+# x = 10
 
-def demo():
-    global x
-    print(x)
-    x = 20
+# def demo():
+#     global x
+#     print(x)
+#     x = 20
 
-demo()
-print(x)
+# demo()
+# print(x)
 
 # def test():
 #     value = 7
@@ -179,13 +179,13 @@ print(x)
 
 # calculate()
 
-def show_number():
-    number = 5
-    number = number + 1
-    print(number)
+# def show_number():
+#     number = 5
+#     number = number + 1
+#     print(number)
 
-show_number()
-show_number()
+# show_number()
+# show_number()
 
 
 # i=0
@@ -195,64 +195,97 @@ show_number()
 #     i-=1
 #     print(name)
 
-count =100
-def show():
-    count1=count+2
-show()
-print(count)
-print(count)
+# count =100
+# def show():
+#     count1=count+2
+# show()
+# print(count)
+# print(count)
 
-def test():
-    value = 7
-    print(value)
-test()
+# def test():
+#     value = 7
+#     print(value)
+# test()
 
-app_name = "StudyApp"
+# app_name = "StudyApp"
 
-def show_app():
-    print(app_name)
+# def show_app():
+#     print(app_name)
 
-show_app()
-print(app_name)
+# show_app()
+# print(app_name)
 
-message="global"
-def outer():
-    def inner():
-        message=True+1
-        print(message)
-    inner()
-outer()
+# message="global"
+# def outer():
+#     def inner():
+#         message=True+1
+#         print(message)
+#     inner()
+# outer()
 
-score = 0
+# score = 0
 
-def add_point():
-    global score
-    score = score + 1
+# def add_point():
+#     global score
+#     score = score + 1
 
-add_point()
-add_point()
-print(score)
+# add_point()
+# add_point()
+# print(score)
 
-items = []
+# items = []
 
-def add_item():
-    items.append("book")
+# def add_item():
+#     items.append("book")
 
-add_item()
-print(items)
+# add_item()
+# print(items)
 
-language = "Python"
-def show():
-    print(language)
-show()
+# language = "Python"
+# def show():
+#     print(language)
+# show()
 
 # total = 0
 # def increase():
 #     total += 1
 # increase()
 
-names = []
-def add_name():
-    names.append("Asha")
-add_name()
-print(names)
+# names = []
+# def add_name():
+#     names.append("Asha")
+# add_name()
+# print(names)
+
+
+def outer():
+    def inner():
+        print(list("prathmesh "))
+    inner()
+outer()
+
+message = "global"
+
+def outer():
+    message = "enclosing"
+
+    def inner():
+        print(message)
+        print(len("cat"))
+
+    inner()
+
+outer()
+
+
+for i in range(0):
+    list="PRATHAM"
+    print(list("PRATHAM"))
+print(list("PRATHAM"))
+
+def make_number():
+    number = 42
+    return number
+
+answer = make_number()
+print(answer)
