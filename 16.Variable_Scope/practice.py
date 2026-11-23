@@ -326,8 +326,23 @@ def change_price():
 change_price()
 print(price)
 
-total = 0
+# total = 0
 
-def update():
-    global total
-    total += 5
+# def update():
+#     global total
+#     total += 5
+def fun():
+    age=17
+    print(age)
+    return age 
+data=fun()
+print(data)
+
+x = 10
+
+def demo():
+    x = 20
+    print(x)
+
+demo()
+print(x)
