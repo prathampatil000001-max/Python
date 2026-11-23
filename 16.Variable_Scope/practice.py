@@ -312,3 +312,8 @@ counter = make_counter()
 print(counter())
 print(counter())
 print(counter())
+
+for item in ["a", "b"]:
+    pass
+
+print(item)
