@@ -449,3 +449,15 @@ def outer():
 
 result = outer()
 result()
+
+def outer(x):
+
+    def inner(y):
+        return x + y
+
+    return inner
+
+add = outer(10)
+
+print(add(5))
+print(add(20))
