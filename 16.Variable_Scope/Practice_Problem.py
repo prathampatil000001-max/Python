@@ -60,11 +60,11 @@ click()
 print(clicks)  # Answer = 3
 
 # 08]
-name = "Asha"
-def show():
-    print(name)
-    name = "Ravi"
-show()
+# name = "Asha"
+# def show():
+#     print(name)
+#     name = "Ravi"
+# show()
 # OUTPUT:-UnboundLocalError because print(name)is before the name "ravi"
 
 # 09]
@@ -85,4 +85,12 @@ my_list = get_list()
 print(my_list)
 my_list.append(4)
 my_list[0] = 10
+print(my_list)
+
+def get_list():
+    return[1,2,3]
+my_list=get_list()
+print(my_list)
+my_list.append(4)
+my_list[0]=10
 print(my_list)
