@@ -86,3 +86,30 @@ print(my_list)
 my_list.append(4)
 my_list[0] = 10
 print(my_list)
+
+
+
+# 11]
+def make_counter():
+    count = 0
+
+    def counter():
+        nonlocal count
+        count += 1
+        return count
+
+    return counter
+
+
+counter = make_counter()
+
+print(counter())  # 1
+print(counter())  # 2
+print(counter())  # 3
+
+# 12]Predict the output: python     x = 1     def outer():         x = 2         def inner():             x = 3             print(x)         inner()         print(x)     outer()     print(x)
+# 3
+# 2
+# 1
+
+# 13]Explain why the loop variable in a normal for loop can remain available after the loop, but a list-comprehension variable in Python 3 does not overwrite an outer variable.
