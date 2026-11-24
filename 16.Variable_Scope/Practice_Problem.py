@@ -32,3 +32,29 @@ for i in range(5):
     pass
 
 print(i)
+
+# 05]
+# define a varialbe can acessed and define a life time 
+
+# 06]
+value = 100
+def test():
+    value = 200
+    print(value)
+test()
+print(value)
+
+# output:-200
+    #    100
+
+
+# 07]
+clicks = 0
+def click():
+    global clicks
+    clicks += 1
+click()
+click()
+click()
+
+print(clicks)  # 3
