@@ -418,3 +418,23 @@ counter = make_counter()
 print(counter())
 print(counter())
 print(counter())
+
+def make_conuter():
+    count=0
+    def increment():
+        nonlocal count
+        count +=1
+        return count
+    return increment
+counter=make_conuter()
+print(counter())
+print(counter())
+print(counter())
+
+
+count=0
+def increment():
+       global count
+       count+=1
+       return count
+print(increment())
