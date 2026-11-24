@@ -113,3 +113,26 @@ print(counter())  # 3
 # 1
 
 # 13]Explain why the loop variable in a normal for loop can remain available after the loop, but a list-comprehension variable in Python 3 does not overwrite an outer variable.
+
+
+
+#14]
+def outer_function():
+    count = 0
+
+    def inner_function():
+        nonlocal count
+        count += 1
+        return count
+
+    return inner_function
+
+
+counter = outer_function()
+
+print(counter())  # 1
+print(counter())  # 2
+print(counter())  # 3
+
+
+
