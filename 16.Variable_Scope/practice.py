@@ -438,3 +438,14 @@ def increment():
        count+=1
        return count
 print(increment())
+
+def outer():
+    message = "Hello"
+
+    def inner():
+        print(message)
+
+    return inner
+
+result = outer()
+result()
