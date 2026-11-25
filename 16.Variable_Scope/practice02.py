@@ -6,6 +6,6 @@ def counter_fun(n):
     if (count==5):
         return count 
 
-    counter_fun(n+1)
+    return counter_fun(n+1)
 
 print(counter_fun(1))
