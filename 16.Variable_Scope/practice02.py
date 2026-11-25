@@ -9,3 +9,11 @@ def counter_fun(n):
     return counter_fun(n+1)
 
 print(counter_fun(1))
+
+x = "G"
+def outer():
+    x = "E"
+    def inner():
+        print(x)
+    inner()
+outer()
