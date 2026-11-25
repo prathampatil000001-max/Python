@@ -3,7 +3,7 @@ def counter_fun(n):
     global count
     count+=1
 
-    if (count==15):
+    if (count==150):
         return count 
 
     return counter_fun(n+1)
