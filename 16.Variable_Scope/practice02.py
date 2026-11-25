@@ -10,10 +10,3 @@ def counter_fun(n):
 
 print(counter_fun(1))
 
-x = "G"
-def outer():
-    x = "E"
-    def inner():
-        print(x)
-    inner()
-outer()
