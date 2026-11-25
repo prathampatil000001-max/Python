@@ -22,7 +22,7 @@ print(addition_of_num(1))
 addition=0
 def addition_t(n):
     global addition
-    addition+=8
+    addition+=n
     if(n==10):
         return addition
     return addition_t(n+1)
