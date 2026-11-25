@@ -19,11 +19,11 @@ def addition_of_num(n):
     return addition_of_num(n+1)
 print(addition_of_num(1))
 
-addition=0
-def addition_t(n):
-    global addition
-    addition+=n
+add=0
+def add_number(n):
+    global add
+    add+=n
     if(n==10):
-        return addition
-    return addition_t(n+1)
-print(addition_t(1))
+        return add
+    return addition_of_num(n+1)
+print(addition_of_num(1))
