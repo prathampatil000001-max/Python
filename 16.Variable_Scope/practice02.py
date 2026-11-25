@@ -18,12 +18,3 @@ def addition_of_num(n):
         return add 
     return addition_of_num(n+1)
 print(addition_of_num(1))
-
-add=0
-def add_number(n):
-    global add
-    add+=n
-    if(n==10):
-        return add
-    return addition_of_num(n+1)
-print(addition_of_num(1))
