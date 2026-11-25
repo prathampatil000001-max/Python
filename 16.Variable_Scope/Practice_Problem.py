@@ -117,18 +117,18 @@ print(counter())  # 3
 
 
 #14]
-def outer_function():
+def outer():
     count = 0
 
-    def inner_function():
+    def inner():
         nonlocal count
         count += 1
         return count
 
-    return inner_function
+    return inner
 
 
-counter = outer_function()
+counter = outer()
 
 print(counter())  # 1
 print(counter())  # 2
