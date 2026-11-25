@@ -18,3 +18,14 @@ def addition_of_num(n):
         return add 
     return addition_of_num(n+1)
 print(addition_of_num(1))
+
+
+# def countdown(n):
+#     if n == 0:
+#         print("Done")
+#         return
+
+#     print(n)
+#     return countdown(n + 1)
+
+# countdown(3)
