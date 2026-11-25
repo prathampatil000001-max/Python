@@ -34,7 +34,7 @@ def count(n):
     if n == 0:
         return
 
-    count(n - 1)
+    count(n - 1) 
 count(2)
 
 
@@ -128,4 +128,45 @@ def sum_to(n):
 
 print(sum_to(5))  
 print(sum_to(0))  
+
+# 8. Factorial (4 marks)
+# Write factorial(n) that returns n!.
+
+# Examples:
+
+# print(factorial(4))  # 24
+# print(factorial(0))  # 1
+# Constraint: n is a non-negative integer.
+# Constraint: n is a non-negative integer
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+
+
+print(factorial(4))  # 24
+print(factorial(0))  # 1
+
+
+# 9. Sum of digits (4 marks)
+# Write digit_sum(n) that returns the sum of the digits of a non-negative integer.
+
+# Examples:
+
+# print(digit_sum(583))  # 16
+# print(digit_sum(7))    # 7
+# print(digit_sum(0))    # 0
+# Hint: % 10 gets the last digit; // 10 removes the last digit.
+
+def digit_sum(n):
+    total = 0
+    while n > 0:
+        total += n % 10
+        n //= 10
+    return total
+
+
+print(digit_sum(583)) 
+print(digit_sum(0))    
     
