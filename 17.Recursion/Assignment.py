@@ -113,6 +113,15 @@ def count_up(n):
     print(n)
 count_up(4)
 
+def count_up(n):
+    if n==1:
+        print(1)
+        return
+    count_up(n)
+    print(n)
+count_up(4)
+
+
 # 7. Sum from 1 to n (4 marks)
 # Write sum_to(n) that returns the sum of all integers from 1 through n.
 
@@ -159,17 +168,15 @@ print(factorial(0))  # 1
 # print(digit_sum(0))    # 0
 # Hint: % 10 gets the last digit; // 10 removes the last digit.
 
-def digit_sum(n):
+def sum(n):
     total = 0
     while n > 0:
         total += n % 10
         n //= 10
     return total
-
-
-print(digit_sum(583)) 
-print(digit_sum(7))
-print(digit_sum(0))    
+print(sum(583)) 
+print(sum(7))
+print(sum(0))    
     
 # 10. Power (5 marks)
 # Write power(base, exponent) that returns base raised to exponent.
@@ -225,8 +232,6 @@ def max_digit(n):
         return num1
     else:
         return num2
-
-
 print(max_digit(4729))  # 9
 print(max_digit(555))   # 5
 print(max_digit(0))     # 0
