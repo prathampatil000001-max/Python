@@ -168,5 +168,99 @@ def digit_sum(n):
 
 
 print(digit_sum(583)) 
+print(digit_sum(7))
 print(digit_sum(0))    
     
+# 10. Power (5 marks)
+# Write power(base, exponent) that returns base raised to exponent.
+
+# Examples:
+
+# print(power(2, 5))  # 32
+# print(power(9, 0))  # 1
+# print(power(3, 1))  # 3
+# Constraint: exponent is a non-negative integer. Do not use ** in your function.
+def  power(base, exponent):
+    if exponent == 0:
+        return 1
+    return base * power(base, exponent-1)
+print(power(2,3))
+
+# ________________
+# _____Question-11______
+def count_digits(n):
+    if -10 < n < 10:
+        return 1
+
+    return 1 + count_digits((n-1) // 10)
+print(count_digits(0))
+
+# ________________
+# _____Question-12______
+def reverse_text(n):
+    if n == "":
+        return ""
+    return reverse_text(n[1:])+n[0]
+print(reverse_text("qwe"))
+
+# ________________
+# _____Question-13______
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n-1) + fibonacci(n-2)
+print(fibonacci(6))
+
+# ________________
+# _____Question-14______
+def max_digit(n):
+    if n == 0:
+        return 0
+    num1 = n % 10
+    num2 = max_digit(n // 10)
+
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+
+print(max_digit(4729))  # 9
+print(max_digit(555))   # 5
+print(max_digit(0))     # 0
+
+# ________________
+# _____Question-15______
+def mystery(n):
+    if n <= 1:
+        return n
+
+    return mystery(n - 1) + mystery(n - 2)
+print(mystery(4))
+print(mystery(0))
+print(mystery(1))
+print(mystery(2))
+
+# ________________
+# _____Question-16______
+def factorial(n):
+    if n == 0:
+        return 1# return 0 
+    
+    return n * factorial(n - 1)
+print(factorial(5))
+
+# ________________
+# _____Question-17______
+def stop_at_zero(n):
+    if n == 0:
+        return
+    print(n)
+    return stop_at_zero(n-1)
+stop_at_zero(7)
+
+# ________________
+# _____Question-18______
+# If a recursive function makes too many nested calls then  Python may have reached its recursion limit and after that it will give a Recursive Error.
