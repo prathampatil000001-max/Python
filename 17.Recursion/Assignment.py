@@ -113,13 +113,7 @@ def count_up(n):
     print(n)
 count_up(4)
 
-def count_up(n):
-    if n==1:
-        print(1)
-        return
-    count_up(n)
-    print(n)
-count_up(4)
+
 
 
 # 7. Sum from 1 to n (4 marks)
