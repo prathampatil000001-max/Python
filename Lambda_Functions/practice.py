@@ -27,3 +27,9 @@ print(marks(100))
 
 Check = lambda n:"Even" if n%2==0 else "odd"
 print(Check(8))
+
+
+check= lambda n : "Even"if n%2==0 else "odd"
+print(check(400))
+
+marks=lambda a:"A Grade"if a>90 else "B Grade" if a>75 else "pass" if a>35 else "Fail"
