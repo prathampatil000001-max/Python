@@ -21,4 +21,4 @@ while True:
         print("Accepted marks:", marks)
         break
     else:
-        print("Invalid marks! Please try again.")
+        print("Invalid marks please try again.")

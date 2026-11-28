@@ -113,30 +113,20 @@ def count_up(n):
     print(n)
 count_up(4)
 
-
-
-
 # 7. Sum from 1 to n (4 marks)
 # Write sum_to(n) that returns the sum of all integers from 1 through n.
-
 # Examples:
-
 # print(sum_to(5))  # 15
 # print(sum_to(0))  # 0
 # Constraint: n is a non-negative integer.
 
 def sum_to(n):
     return n * (n + 1) // 2
-
-
 print(sum_to(5))  
 print(sum_to(0))  
-
 # 8. Factorial (4 marks)
 # Write factorial(n) that returns n!.
-
 # Examples:
-
 # print(factorial(4))  # 24
 # print(factorial(0))  # 1
 # Constraint: n is a non-negative integer.
@@ -146,17 +136,11 @@ def factorial(n):
     for i in range(1, n + 1):
         result *= i
     return result
-
-
 print(factorial(4))  # 24
 print(factorial(0))  # 1
-
-
 # 9. Sum of digits (4 marks)
 # Write digit_sum(n) that returns the sum of the digits of a non-negative integer.
-
 # Examples:
-
 # print(digit_sum(583))  # 16
 # print(digit_sum(7))    # 7
 # print(digit_sum(0))    # 0

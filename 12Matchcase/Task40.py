@@ -1,6 +1,6 @@
-# main_choice = input("Enter your choice: ")
+main_choice = input("Enter your choice: ")
 
-match Main_choice:
+match main_choice:
     case "1":
         print("\n--- Student Menu ---")
         print("1. Profile")
@@ -66,3 +66,17 @@ match Main_choice:
 
     case _:
         print("Invalid main menu choice.")
+
+# text = "call of duty"
+# word = "duty"
+
+# found = False
+
+# for i in range(len(text) - len(word) + 1):
+#     if text[i:i + len(word)] == word:
+#         found = True
+#         print("Found at index:", i)
+#         break
+
+# if not found:
+#     print("Not found")

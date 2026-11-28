@@ -7,4 +7,4 @@ while True:
         print("Accepted number:", num)
         break
     else:
-        print("Invalid input! Please enter a number greater than 0.")
+        print("Invalid input please enter a number greater than 0.")

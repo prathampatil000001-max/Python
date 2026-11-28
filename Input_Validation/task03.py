@@ -7,4 +7,4 @@ while True:
         print("Accepted age:", age)
         break
     else:
-        print("Invalid age! Please enter an age between 0 and 120.")
+        print("Invalid age please enter an age between 0 and 120.")

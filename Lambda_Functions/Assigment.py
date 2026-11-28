@@ -83,7 +83,7 @@ find_last_character = lambda s: s[-1]
 print(find_last_character("Coding"))
 
 
-# 0. Calculate the Final Price
+# 10. Calculate the Final Price
 # Create a lambda function that accepts the original price and discount percentage. Return the final price after applying the discount.
 
 # Formula:

@@ -58,7 +58,7 @@ match main_choice:
                 print("Invalid Employee Choice")
 
     case 2:
-        print("\n--- Manager Menu ---")
+        print(" Manager Menu ")
         print("1. View Team")
         print("2. Approve Leave")
         print("3. View Reports")
